@@ -7,6 +7,7 @@ img{
     width: 220px;
     height: 60px;
    
+   
 }
 a{
     list-style: none;
@@ -15,9 +16,12 @@ a{
 header{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(37, 35, 35);
+    background-color: rgba(0, 0, 0, 1);
     align-items: center;
     font-family: 'Mooli', sans-serif;
+    width: 100%;
+    position: fixed;
+
 }
 .nav-links{
     list-style: none;
@@ -44,11 +48,14 @@ font-weight: 500;
     margin-right: 10px;
     font-family: 'Mooli', sans-serif;
     font-weight: bold;
+
+    
    
    }
      .bt-login:hover{
     color: rgb(202, 25, 184);
     cursor: pointer;
+    font-family: 'Mooli', sans-serif;  
      }
 
      .big{
@@ -67,7 +74,9 @@ font-weight: 500;
      .main{
         display: flex;
         justify-content: space-between;
-        background-color: rgb(37, 35, 35);
+        background-color: rgba(0, 0, 0, 0.822);
+        align-items: center;
+        padding-top: 30px;
      }
 
 .btnn{
@@ -92,14 +101,17 @@ font-weight: 500;
   .bt{
     text-align: center;
     font-size: 50px;
+    font-family: 'Mooli', sans-serif;
+    color: rgba(73, 73, 203, 0.877);
+    padding-top: 30px;
 }
 .logos{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-padding-bottom: 20px;
-padding-right: 50px;
+    padding-bottom: 30px;
+
 }
 
 .cd{
@@ -110,19 +122,76 @@ padding-right: 50px;
 }
 .foot{
     bottom: 0;
-    width: 100%;
-    height: 40px;
-    background-color: blue;
+    height: 50px;
+    background-color: #37517e;
     font-size: 20px;
     color: azure;
     padding-left: 60px;
     padding-top: 10px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+    font-family: 'Mooli', sans-serif;
 }
-.logoo{
-    display: flex;
-}
+ .second-main{
+display: flex;
+justify-content: center;
+padding: 50px 30px;
+padding-right: 200px;
+ }
+ .logoimg{
+    height: 40%;
+    width: 45%;
+    align-items: space-between;
+    padding-right: 200px;
+ }
+ .about{
+    margin-left:750px;
+    color: chocolate;
+    padding-bottom: 50px;
+    font-size: 40px;
+ }
 
+.Hello{
+ 
+    line-height: 20px;
+  text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Mooli', sans-serif;
+   
+    
+
+}
+ .down{
+    display: flex;
+    text-align: justify;
+    align-content: space-between;
+    padding-left: 300px;
+    align-items: center;
+    justify-content: space-between;
+  
+
+ }
+ .aaaa{
+    animation: up-down 7s ease-in-out infinite alternate-reverse both;
+  }
+  
+  @keyframes up-down {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-15px);
+    }
+    50% {
+      transform: translateY(15px);
+    }
+    75% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(15px);
+    }
+  }
+  
 
  
